@@ -1,0 +1,27 @@
+1) What I learned today: 
+	JavaScript -> Nodejs(running environment)/ExpressJS(Server modules)/KrakenJS(backend MVC structure framework) -> MongoDB(JS written NoSQL database)
+	JQuery is a common use JavaScript Library
+	backboneJS/AngularJs(website front end MVC structure)
+	Template Language(Something like HTML generator), this includes - jade/ejs/dust
+	CSS3 -> Less/Sass (They are all CSS3 generators, and they convert static css to dynamic css)
+	Bootstrap/SemanticUI -> Modulized JavaScript, HTML and CSS
+	Google Analytics can be used to analysis backend data
+	WordPress/Shopify -> Automatic construct a website without any coding.
+	Heroku -> Cloud Service
+	Twilio -> Use code to program the way of traditional telephone.
+	MEAN Stack
+	Three and half paths for web developer to go -> JS, LAMP PHP, Java JSP and Ruby/Python(half part)
+
+	About personal website:
+	Use Chrome and Sublime to do web programming.
+	DOM is a tree-like structure such as HTML structure.
+	For HTML tag, meta is used to do configuration
+	For HTML5 syntac - I should know htat header is at the upmost of a webpage and footer as the lowermost of a webpage.
+	GoDaddy
+
+	Interview Questions:
+	1) In order to decrease the time to request a whole webpage, I can either decrease the number of whole webpage requests number or decrease some files such as .css files(All put in a line to decrease spaces such as "/n" and " ")
+
+2) What I do today:
+	I learn previous concepts and change my Linkedin to add these skills to my current skill set.
+	I also contruct http://www.mi.com/en/miband/#03 and upload one index.html and one style.css file 
