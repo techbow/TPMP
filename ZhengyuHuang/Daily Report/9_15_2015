@@ -1,0 +1,34 @@
+Today for most of the time, I stay in Techbow to learn from Lao Liu (in the afternoon) and other teachers (in the evening). 
+
+Today's note:
+	1) What I do today - Choose DigitOcean as a host containing server, sql and WordPress;
+	2) Use WordPress and existed template to construct a eCommerce website
+	3) Ensure this website can choose products and successfully pay money
+
+Knowledge of third party server:
+	1) Domain + Hosting
+	2) VPS -> Visual Private Server (Administation authority) (GoDaddy, linode, DigitalOcean)
+	3) AWS, Azure -> Cloud Service (Not only store in just one server)
+	4) Linux Server (in general condition, open source, NodJS, JavaScript), Windows Server (for .ASP)
+	5) WordPress(CMS)
+
+Linux Command:
+	1) For search -> /
+	2) For go into edit mode -> i
+	3) For exit edit mode -> esc
+	4) For Admin mode exe -> sudo
+	5) For save and exit -> :wq
+	6) For direct quit -> :q
+	7) For restart apache server: sudo server apache2 restart
+
+Lynda account username and password - See TPMP group chat
+
+For calendar:
+Algorithm - Tuesday and Sunday evening;
+UIUX - Saturday morning and Wednesday night;
+System Design - language, coding, algorithm, system design, Java fundamental, exception, multi-thread, blocking queue, LRU;
+iOS - wz - objective C
+
+This Saturday morning 9:30 am is Java foundmental course.
+
+END.
