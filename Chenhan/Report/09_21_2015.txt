@@ -1,0 +1,11 @@
+Caught cold! T T
+
+1.Practiced coding problems:
+	Merge Two Sorted Lists
+	Remove Duplicates from Sorted List II
+	Reverse Linked List II
+	All Permutations II
+	Reverse String
+	Right Shift By N Characters
+	Reverse Words In A Sentence I
+	Longest Substring Without Repeating Characters
