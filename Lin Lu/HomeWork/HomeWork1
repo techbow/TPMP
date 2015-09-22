@@ -1,0 +1,114 @@
+//Remove Duplicates from Sorted List II
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        if(head == null || head.next == null)
+            return head;
+        
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        head = dummy;
+
+        while (head.next != null && head.next.next != null) {
+            if (head.next.val == head.next.next.val) {
+                int val = head.next.val;
+                while (head.next != null && head.next.val == val) {
+                    head.next = head.next.next;
+                }            
+            } else {
+                head = head.next;
+            }
+        }
+        
+        return dummy.next;
+    }
+}
+
+//Merge Two Sorted Lists
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+        ListNode lastNode = dummy;
+        
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                lastNode.next = l1;
+                l1 = l1.next;
+            } else {
+                lastNode.next = l2;
+                l2 = l2.next;
+            }
+            lastNode = lastNode.next;
+        }
+        
+        if (l1 != null) {
+            lastNode.next = l1;
+        } else {
+            lastNode.next = l2;
+        }
+        
+        return dummy.next;
+    }
+}
+
+
+Reverse Linked List II
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    public ListNode reverseBetween(ListNode head, int m, int n) {
+        if (m >= n || head == null) {
+            return head;
+        }
+        
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        head = dummy;
+        
+        for (int i = 1; i < m; i++) {
+            if (head == null) {
+                return null;
+            }
+            head = head.next;
+        }
+        
+        ListNode premNode = head;
+        ListNode mNode = head.next;
+        ListNode nNode = mNode, postnNode = mNode.next;
+        for (int i = m; i < n; i++) {
+            if (postnNode == null) {
+                return null;
+            }
+            ListNode temp = postnNode.next;
+            postnNode.next = nNode;
+            nNode = postnNode;
+            postnNode = temp;
+        }
+        mNode.next = postnNode;
+        premNode.next = nNode;
+        
+        return dummy.next;
+    }
+}
