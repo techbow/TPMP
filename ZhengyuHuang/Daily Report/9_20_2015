@@ -7,7 +7,7 @@ In the evening -> Algorithm class
 
 !!! Algorithm Class Note:
 
-List implements ArrayList
+ArrayList implements List
 (Leetcode-88) Merge Sorted Array
 (Leetcode-73) Set Matrix Zeros
 (Leetcode-160) Intersection of Linked Lists
@@ -15,7 +15,7 @@ List implements ArrayList
 (Leetcode-80) Remove Duplicates from Sorted Array2 
 Print missing elements that lie in range 0 - 99 (SEE PPT)
 Find a common element in all rows of a given row-wise sorted matrix (SEE PPT)
-Isomorphic Strings (SEE PPT)
+Isomorphic Strings (SEE PPT and Leetcode)
 
 !!! Algorithm Class Homework: (Deadline next Tuesday)
 
