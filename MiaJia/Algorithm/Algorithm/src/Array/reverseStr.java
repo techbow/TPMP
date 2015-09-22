@@ -1,13 +1,13 @@
 package Array;
 
-public class reverseString {
-	public class Solution {
+public class reverseStr{
 		/**
 		 * @param s : A string
 		 * @return : A string
 		 */
 		public String reverseWords(String s) {
 			/*异常处理 注意return type
+			 * 考虑只有一个空格和多个空格的特殊情况
 			 * 用split()函数时，注意要考虑多个空格的情况，也为if (!arr[i].equals("")) check的情况
 			 * eg：一个3个空格的string split后变成length为3但存储空字符串的String[]
 			 * 
@@ -26,9 +26,8 @@ public class reverseString {
 					sb.append(arr[i]).append(" ");
 				}
 			}
-
 			return sb.length() == 0? " ":sb.substring(0, sb.length() - 1);
 		}
 	}
 
-}
+
