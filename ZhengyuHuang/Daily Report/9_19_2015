@@ -1,0 +1,50 @@
+!!!Daily Report:
+
+Java foundmental Course today's morning and part of afternoon;
+JiuZhangSuanFa System Design class 5 and class 6
+
+*********************************************************************
+
+!!!Today's note:
+Java Instruction
+
+function()
+class()
+C++ 编译型语言， Java 解释型语言
+JVM - Java Virtual Machine
+Java new feature in JVM 1.8 (sand box) 安全性，跨平台，但是速度慢，垃圾收集
+python script language
+
+Important for Computer Science Job Hunting:
+OS - Database - Network - Data Structure - Design Pattern
+
+Call dump
+Cmd + -> Make command window and words in it bigger.
+
+Eclipse -> Run configuration -> Run Arguments
+(Set Eclipse comment shortcut.) (AND ALL eclipse configuration)
+
+underscore -> “_” ; slash -> “/“; back slash -> “\”; pond -> “#”; star -> “*”
+
+Primitive data type -> int(32), char(16), float(32), double(64), boolean(1), long(64), byte(8), short(16)
+
+difference between static & final -> static can change, final can not change. static ALL link to one variable once it is initialized.
+
+Do not use next line because you can never cast elements back.
+ArrayList<Object> arr = new ArrayList<Object>();
+
+*********************************************************************
+
+!!!Today's assignment:
+(Deadline : Next Saturday)
+1) 	Install Eclipse and make all configuration
+2) 	Java Calc 1+1 -> Output : 2
+	Java Calc 1+ (2 + 3)*2 -> Output : 11 (Deadline - Next Saturday)
+	Java Calc 1 + log(3 + 4) + 2 / 3 -> Output : Math & 0.(6)
+	If input is not valid, return “Error”.
+	Java Calc “1 + 2” 3
+	! a) 1 + 2 * 3 = 9
+	! b) 1 + 2 * 3 = 7
+	! c) (1 + 2) * 3 = 9
+	d) log  2E5
+	e) 2/3 = 0.(6)

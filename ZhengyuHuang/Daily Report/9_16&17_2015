@@ -1,0 +1,12 @@
+mapReduce
+map + shuffle + reduce
+Listen to System Design Course on evening of Sep 7, 2015
+Do contract assignment for about 7 hours altogether and done for current assignment
+Talk with other TMPT students about different interview questions, including:
+1) Inorder traversal of a binary tree;
+2) Convert sorted listnode to binary search tree;
+3) First missing positive;
+4) Non-recursive way of doing the second problem;
+5) Detect whether two strings are rotate strings;
+6) Detect whether two strings can be converted to rotate binary tree related strings.
+7) Find the longest subset string of a given string which is palindrome (Should use dynamic programming);
