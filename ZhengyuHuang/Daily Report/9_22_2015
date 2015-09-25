@@ -32,3 +32,5 @@ Binary Search Tree -> Every node in the left subtree always smaller than root va
 
 Use two queues to implement BFS.
 Class Practise - Balanced Binary Tree
+Class Practise - Flatten Binary Tree to Linked List
+
