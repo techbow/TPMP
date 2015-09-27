@@ -1,0 +1,29 @@
+Today's work:
+
+Leetcode 
+283 - move zeros
+278 - first bad version
+275 - H-index II
+274 - H-index
+268 - Missing Number
+263 - Ugly Number
+258 - Add Digits
+
+Afternoon class:
+
+!!! Class Note
+Java iterate object
+for(int i : array){
+	
+}
+
+List / ArrayList
+Base and Sub object
+Java first construct and then field
+Down cast
+
+Abstract class and interface 
+interface multiple inheritance
+interface face outside / abstract class is used for more convenient way of implementation.
+
+
