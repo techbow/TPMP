@@ -1,0 +1,115 @@
+Operating System Interview Questions
+
+
+CPU 2G~4G 
+1s做多少加法？ 2~4G/8
+
+ 				Latency       Size
+L1 catch        0.1ns
+L2 catch 8G    1ns            512kb
+L3 catch       10ns  		  512kb
+memory         100ns 		  512kb
+storage HDD(1000ns, IOSP: 100Mb)/SSD(100ns,)  100G
+
+For catch:
+hit rate
+
+
+For memory:
+IOPS (Input/Output Operations Per Second)
+
+*LRU
+least rate use
+*FIFO/
+
+Stack size: 8Gb(overflow)
+
+
+virtual memory
+
+文件管理（稍微看一下,会用几个常见）http://www.tutorialspoint.com/java/java_files_io.htm
+
+线程&进程
+
+计算机的核心是CPU，它承担了所有的计算任务。它就像一座工厂，时刻在运行。
+进程process，就好比工厂的车间，它代表CPU所能处理的单个任务。任一时刻，CPU总是运行一个进程，其他进程处于非运行状态。
+每个进程相对独立 分配空间 比较耗时
+
+一个车间里，可以有很多工人。他们协同完成一个任务。
+线程thread(light weight process)就好比车间里的工人。一个进程可以包括多个线程。
+	Why need? EG: to get information from a web: you need to get 1 image
+	车间的空间是工人们共享的，比如许多房间是每个工人都可以进出的。这象征一个进程的内存空间是共享的，每个线程都可以使用这些共享内存。
+	可是，每间房间的大小不同，有些房间最多只能容纳一个人，比如厕所。里面有人的时候，其他人就不能进去了。这代表一个线程使用某些共享内存时，其他线程必须等它结束，才能使用这一块内存。
+	一个防止他人进入的简单方法，就是门口加一把锁。先到的人锁上门，后到的人看到上锁，就在门口排队，等锁打开再进去。这就叫"互斥锁"（Mutual exclusion，缩写 Mutex），防止多个线程同时读写某一块内存区域。
+	还有些房间，可以同时容纳n个人，比如厨房。也就是说，如果人数大于n，多出来的人只能在外面等着。这好比某些内存区域，只能供给固定数目的线程使用。
+	这时的解决方法，就是在门口挂n把钥匙。进去的人就取一把钥匙，出来时再把钥匙挂回原处。后到的人发现钥匙架空了，就知道必须在门口排队等着了。这种做法叫做"信号量"（Semaphore），用来保证多个线程不会互相冲突。
+	不难看出，mutex是semaphore的一种特殊情况（n=1时）。也就是说，完全可以用后者替代前者。但是，因为mutex较为简单，且效率高，所以在必须保证资源独占的情况下，还是采用这种设计。
+
+操作系统的设计，因此可以归结为三点：
+（1）以多进程形式，允许多个任务同时运行；
+（2）以多线程形式，允许单个任务分成不同的部分运行；
+（3）提供协调机制，一方面防止进程之间和线程之间产生冲突，另一方面允许进程之间和线程之间共享资源。
+
+
+When we start two or more threads within a program, there may be a situation when ___multiple threads try to access the same resource and finally they can produce unforeseen result due to concurrency issue___. For example if multiple threads try to write within a same file then they may corrupt the data because one of the threads can overrite data or while one thread is opening the same file at the same time another thread might be closing the same file.
+So there is a need to synchronize the action of multiple threads and make sure that only one thread can access the resource at a given point in time. This is implemented using a concept called monitors. Each object in Java is associated with a monitor, which a thread can lock or unlock. Only one thread at a time may hold a lock on a monitor.
+
+Using synchronized blocks. You keep shared resources within this block. Following is the general form of the synchronized statement:
+
+
+synchronized(objectidentifier) {
+   // Access shared variables and other shared resources
+}
+
+Java - Interthread Communication
+There are simply three methods and a little trick which makes thread communication possible. First let's see all the three methods listed below:
+SN	Methods with Description
+1	public void wait()
+Causes the current thread to wait until another thread invokes the notify().
+
+2	public void notify()
+Wakes up a single thread that is waiting on this object's monitor.
+
+3	public void notifyAll()
+Wakes up all the threads that called wait( ) on the same object.
+
+Synchronization method 在任意时刻只有一个函数run
+
+mutithread safe: StringBuffer/   HashTable/   Vector/       
+（no safe)       StringBuilder/  HashMap/     Arraylist   HashSet
+
+Thread Pools 
+One common type of thread pool is the fixed thread pool. This type of pool always has a specified number of threads running; if a thread is somehow terminated while it is still in use, it is automatically replaced with a new thread. Tasks are submitted to the pool via an internal queue, which holds extra tasks whenever there are more active tasks than threads.
+An important advantage of the fixed thread pool is that applications using it degrade gracefully. To understand this, consider a web server application where each HTTP request is handled by a separate thread. If the application simply creates a new thread for every new HTTP request, and the system receives more requests than it can handle immediately, the application will suddenly stop responding to all requests when the overhead of all those threads exceed the capacity of the system.———————— With a limit on the number of the threads that can be created, the application will not be servicing HTTP requests as quickly as they come in, but it will be servicing them as quickly as the system can sustain.————————
+
+
+
+
+Deadlock describes a situation where two or more threads are blocked forever, waiting for each other. Deadlock occurs when multiple threads need the same locks but obtain them in different order. A Java multithreaded program may suffer from the deadlock condition because the synchronized keyword causes the executing thread to block while waiting for the lock, or monitor, associated with the specified object. Here is an example:
+
+Above program will hang forever because neither of the threads in position to proceed and waiting for each other to release the lock, so you can come out of the program by pressing CTRL-C.
+
+Java - Thread Control
+Core Java provides a complete control over multithreaded program. You can develop a multithreaded program which can be suspended, resumed or stopped completely based on your requirements. There are various static methods which you can use on thread objects to control their behavior. Following table lists down those methods:
+
+SN	Methods with Description
+1	public void suspend()
+This method puts a thread in suspended state and can be resumed using resume() method.
+
+2	public void stop()
+This method stops a thread completely.
+
+3	public void resume()
+This method resumes a thread which was suspended using suspend() method.
+
+4	public void wait()
+Causes the current thread to wait until another thread invokes the notify().
+
+5	public void notify()
+Wakes up a single thread that is waiting on this object's monitor.
+
+http://www.tutorialspoint.com/java/java_thread_control.htm
+
+
+
+

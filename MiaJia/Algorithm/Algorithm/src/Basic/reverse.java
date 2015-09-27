@@ -129,12 +129,9 @@ public class reverse {
 			for(int i = 0; i < temp.length; i++){
 				result[i] = temp[temp.length-1-i];
 			}
+			//convert byte array to string
 			String reverse = new String(result);
-//			for(Character c: src){
-//				 reverse = reverse + c;
-//			}
-//			直接用这句的话会输出[d, l, r, o, W, o, l, l, e, H] 			
-//		    reverse = String.valueOf(result).toString();
+
 			return reverse;
 		}
 
