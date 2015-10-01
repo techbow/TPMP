@@ -1,0 +1,17 @@
+Daily Report:
+
+Read Cracking Coding Interview 50 pages.
+Talk with Ming about new interview problems in Mitbbs.
+
+Lecture Notes:
+
+Letter Combinations of a Phone Number (Rewrite DFS)
+Use BFS. Use subproblem -> digits.substring(1)
+Permutation
+Use BFS. [] -> [1] -> [1,2 | 2,1] -> [3,1,2 | 1,3,2 | 1,2,3 | 3,2,1 | 2,3,1 | 2,1,3]
+Sudoku Solver
+
+Triangle -> Top Down version and Down up version
+Pascal's Triangle
+Pascal's Triangle II
+Triangle
