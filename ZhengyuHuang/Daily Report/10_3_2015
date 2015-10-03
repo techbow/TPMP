@@ -1,0 +1,24 @@
+!!! Daily Report
+
+Leetcode problem:
+Clone Graph
+Number of Islands
+Surrounded Regions
+Course Schedule
+Course Schedule II
+Reorder List
+Sort List
+
+Afternoon Algorithm courses
+Read Cracking code interview from page 150
+
+!!! Saturday afternoon algorithm class
+
+Apache, IIS 
+What happened when I input an URL into webbrowser and enter?
+1) Enter URL
+2) Go to DNS(distributed, local cash -> web service provider), change URL to IP address
+3) Port number -> Application (IP + ":" + Port)
+Apache -> Web Server
+Techbow -> LAMP Linux, Apache, Mysql and Php
+

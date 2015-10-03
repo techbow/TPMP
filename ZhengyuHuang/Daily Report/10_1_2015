@@ -1,7 +1,36 @@
 !!!! Daily Report:
 
+Craking Coding Interview 50 pages to 100 pages.
+Draw a digram for all my projects, and make a ppt for all my projects.
+
+Leetdcode:
+Remove Nth Node From End of List
 
 
 !!!! Class Notes:
 
+Leetcode SQL query test.
 
+Database(SQL query)
+Relational Database
+Concept -> Index(Clustered index and Normal index), Transaction, View, Stop Procedure, Trigger
+
+microsoft access
+oracle (enterprize level) 
+sybase
+mysql (oracle)
+IBM DB2
+sqlServer 
+
+NoSql -> like HashTable -> (Key, Value), flexiable for null
+NoSql vs Sql
+
+CRUD -> Create, Read, Update, Delete
+
+MySQL Workbench
+SQL comment -> "--" and "/**/"
+RDBMS -> Relational Database Management System
+
+Schema -> database, table, index, column, alias, view, stored procedure, partition, tablespace
+
+String -> to Char Array (in place) Use String builder 
