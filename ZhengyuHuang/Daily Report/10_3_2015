@@ -8,9 +8,11 @@ Course Schedule
 Course Schedule II
 Reorder List
 Sort List
+Count and Say
+Min Stack
+Plus One
 
 Afternoon Algorithm courses
-Read Cracking code interview from page 150
 
 !!! Saturday afternoon algorithm class
 
@@ -21,4 +23,7 @@ What happened when I input an URL into webbrowser and enter?
 3) Port number -> Application (IP + ":" + Port)
 Apache -> Web Server
 Techbow -> LAMP Linux, Apache, Mysql and Php
+RESTful -> Design Pattern -> Gang of Four
+
+Java -> Service
 

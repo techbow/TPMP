@@ -1,0 +1,41 @@
+!!! Daily Report:
+
+Leetcode Problem:
+Valid Parentheses
+Two Sum
+3Sum (There is a trick here on how to treat duplicate results!)
+3Sum Closest
+4Sum (Note ways to treat duplicates in outer two loops!)
+Remove Element (Try a week Later!!! Note edge case!!!)
+House Robber
+House Robber II
+Minimum Path Sum
+
+
+!!! Morning Algorithm Class Notes
+
+Generate Paretheses:
+1) ()
+2) ((!)) and ()(!)
+3) find rightmost left paretheses and from that position add new pair of paretheses.
+.....
+
+NQueens:
+Using bit map to do it. colMask -> leftMask -> rightMask
+
+Unique Path:
+public uniquePath(int i, int j){
+	if(i == 0 || j == 0) return 1;
+	return uniquePath(i-1, j) + uniquePath(i, j-1);
+}
+C(2, 8) = 8*7/2 = 28
+
+25 hourses find first three fastest hourses, every time 5 hourses.
+firstly, find 15 hourses.
+then for every group's first five hourses.
+then find the first one, omit the last two and others that are not possible. Besides the fastest one, only five hourses rest. 
+Then altogether 5 + 1 + 1 = 7 rounds.
+
+github link && time to spend (Add to google doc)
+
+
