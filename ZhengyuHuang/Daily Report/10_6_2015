@@ -1,0 +1,33 @@
+!!! Daily Report
+
+Leetcode Problem
+Word Pattern (10 mins)
+Best Time to Buy and Sell Stock (10 mins)
+Best Time to Buy and Sell Stock II (10 mins)
+Distinct Subsequences (20 mins)
+Dungeon Game (20 mins)
+Best Time to Buy and Sell Stock III (30 mins)
+Rotate Image (10 mins)
+Container With Most Water (50 mins, using wrong algorithm!)
+<Confused with Trapping Rain Water!>
+Maximum Product Subarray (10 mins)
+
+Read Cracking Code Interview from page 150 to 175
+
+!!! Evening Algorithm Course Notes
+Word Break DFS algorithm (Time Limit Exceed)
+Word Break II (Homework)
+Maximum Product Subarray (Homework, Note to add nums[n])
+Interleaving String (Homework)
+Longest Increasing Subsequence (Homework, not Leetcode Problem)
+
+10, 22, 9, 33, 21, 50, 32
+1,   2,  1, 3,  2,  4,  3
+result : (9-1) & (21-2) & (32-3) & (50-4)
+
+Palindrome Partitioning (Homework)
+Palindrome Partitioning II (!Homework)
+
+Divide larget amounts of Integers into two groups whose sum difference is the most close.
+(Balanced Partition)
+

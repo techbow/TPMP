@@ -1,0 +1,45 @@
+!!! Daily Report
+
+Leetcode Problem:
+Reverse Bits (15 mins)
+Evaluate Reverse Polish Notation (10 mins)
+Reverse Words in a String (15 mins)
+Find Minimum in Rotated Sorted Array (15 mins)
+Find Minimum in Rotated Sorted Array II (10 mins)
+Search Insert Position (15 mins)
+Nim Game (5 mins)
+Count Complete Tree Nodes (30 mins, Wrong thought)
+
+!!! Morning Algorithm Class Notes
+
+编程珠玑
+尾递归
+if invalid throw new Exception("Not found");
+Use class if more than two global paramters should be used.
+
+Leetcode Problem:
+Closet Binary Search Tree Value
+(Not in Leetcode) Find the closest value in a sorted array
+Search for a Range
+Search insert position
+Search for a Range
+Search a 2D Matrix
+Search in Rotated Sorted Array
+Find Minimum in Rotated Sorted Array
+Sort Colors
+(to charArray) Reverse Words in a String (reverse every word and then reverse the whole string to charArray)
+rotate array (leetcode -> 2,3,4,5,6 to 4,5,6,2,3 given k = 3)
+Merge K Sorted Lists (try it with [combine every two together] and without using Heap<Comparator>) (Compare different ways of doing it for both time and space complexity)
+Rotate List (connect end of list to the head node and cut at the target)
+
+!! Sort
+bubble sort (Use eclipse to test)
+
+!!Homework
+Sort Colors
+Merge K Sorted Lists
+H-index
+H-index II
+Kth Smallest Element in a BST
+Count Complete Tree Nodes
+Median of Two Sorted Arrays
