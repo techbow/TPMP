@@ -11,11 +11,6 @@ Restore IP Addresses (30 mins) (Take care of corner case)
 Rectangle Area (15 mins)
 Minimum Window Substring (1 hour) (Do this problem AGAIN!!!)
 
-///// The following problem is reserved to TOMORROW.
-Permutation Sequence (20 mins)
-Word Ladder (1 hour)
-Longest Consecutive Sequence (30 mins)
-
 !!! Evening class notes:
 !Median of Two Sorted Arrays (logK where K equals to (m+n)/2)
 Best Time to Buy and Sell Stock (Keep local minimum in for loop)

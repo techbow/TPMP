@@ -1,5 +1,14 @@
 !!! Daily Report
 
 Leetcode Problem
-Largest Rectangle in Histogram (1 hour)
-Longest Substring Without Repeating Characters ()
+Permutation Sequence (20 mins)
+Word Ladder (1 hour)
+Longest Consecutive Sequence (30 mins)
+Median of Two Sorted Arrays (30 mins)
+Insert Interval (1 hour) (This is a logic problem!)
+Sliding Window Maximum (1 hour) (LinkedList -> list.getLast() && list.removeLast() && list.getFirst() && list.removeFirst())
+Minimum Window Substring (! Try to do this problem again!)
+Longest Substring Without Repeating Characters (30 mins)
+Divide Two Integers (30 mins) (! Notice small EDGE CASES ! I can also use "long" type to avoid "int" edge cases!)
+
+
