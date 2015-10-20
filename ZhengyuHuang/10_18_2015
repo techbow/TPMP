@@ -1,0 +1,64 @@
+!!! Afternoon Web Class
+
+LocalStorage.clear()
+CSS -> Do not use (HTML)ID selector without related to JQuery
+
+h1 {
+	color: red !important;
+}
+
+.div1, .div2 {
+	// Low Priority
+}
+&&
+.div1 .div2 {
+	// High Priority
+}
+
+Chrome Color Picker (Element Inspector)
+
+Image Sprite
+Image Replacement
+a: hover (Link)
+table collapse
+nth-child(even) && nth-child(odd) -> This is CSS Selector.
+!!! CSS box model
+!!! overflow: visible, hidden, scroll, auto
+margin up right down left
+CSS -> shadow box 
+Inline-Block (Implement something like table)
+!!! CSS Position (fixed -> Top Navigation)
+Felx Box
+Z-Index : -1 (default)
+!!! CSS Float (Responsive Design)
+clearfix 
+margin: 0 auto; (horizontal align)
+(Vertical align)
+.divFather{
+	display: table;
+	text-align: center;
+}
+.divChildren{
+	display: table-cell;
+	vertical-align: middle;
+}
+.divChildren{
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+li:last-child {
+	// function for last child of every children
+}
+codepen (Webiste)
+font-family: font1, font2, font3 (Last one is most popular)
+Do not use my own font. (TRY google font)
+vendor prefix
+difference between transition && animation ?
+How to write Media Queory ? 
+
+!!! Homework
+Before this Tuesday -> Homework Mark Cup
+Before Saturday -> Homework Resume
+
+
