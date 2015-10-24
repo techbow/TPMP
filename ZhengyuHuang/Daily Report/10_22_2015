@@ -1,0 +1,27 @@
+!!! Daily Report
+
+Use font-awesome and only html and css to implement basic functions of my personal resume webpage.
+
+!!! Evening Web Class
+
+Interview Question -> http://thatjsdude.com/interview/ (PPT Slide and website for front-end interview question)
+Warm up for JavaScript before this Saturday. 
+JavaScript -> One thread. Web Worker -> New a thread and run javascript code without interfering webpage performance. (Something like AJAX)
+
+difference put and post -> put equals to update; post equals to add(create). After several execuations, put has the same effect. but post has different effects.
+CDN -> Content Distributed Network. Chrome limit download resources number. As a result, CDN will offer same resources with different domains to fasten download.
+span, a, img -> inline
+<div style="display:table"></div>
+
+HW1:
+Use less class
+Do not use <br>
+
+css-tricks.com
+display: flex;
+
+github: rebase & merge 
+
+!!! See other TPMP students HW1 first part
+
+
