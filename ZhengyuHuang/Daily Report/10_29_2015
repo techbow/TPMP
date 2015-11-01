@@ -1,0 +1,90 @@
+!!! Evening Web Class Notes:
+
+微信上Vector发的Data Visulization的网页Inspect Element.
+Homework 1
+Add all methods in javascript (prototype)
+StopWatch.prototype.log()
+JavaScript test -> QUnit
+HTML attach element to DOM. Do not use Javascript <script></script> in HTML.
+Do not use document.write. Use getElementID();
+document.createDocumentFragment() -> JQuery; After that append;
+
+!!! How to creat new element in JQuery ?
+!!! Random new token, hash current millisecond plus random millisecond
+!!! Ask for answer of HW2 for Web
+
+JQuery -> Eq()
+"tr:lt(1)" -> less than 1 in all "tr"s;
+JQuery make a AJAX call -> Interview Question;
+deffer & promise de difference
+
+!!! Interview Problem : (Real Interview Problem Victor will send TPMP.)
+
+First Problem:
+Five Stars Recommend
+$("ul").on('click', 'li', function() {
+	var index = $(this).index();
+	console.log($(this));
+	//console.log(index);
+	$(''li':lt(' + (index + 1) + ')').addClass('yellow');
+	$(''li':gt(' + index + ')').removeClass('yellow');
+})
+
+Second Problem:
+Row Tab 
+content set unvisible border type
+
+Third Problem:
+Password dots, only display last digit. Can delete, Can add. 
+if(Keycode == "delete")
+Do not use "Array.prototype" use only my own function.
+console.log.apply(console, arguments);
+
+VPN -> 173.227.36.67 (Zhengyu Huang, wait to be assigned a username and password.)
+
+
+FileZilla:
+Host: sftp://173.227.36.67;
+Username: zhengyu
+Password: (See Wechat)
+Port: 22
+
+Cloud Sync 推送
+
+10_31_2015
+Saterday Afternoon Class:
+JQuery Interview Question:
+event.stopPropagation(); // Prevent bubble up for click
+event.preventDefault(); // Remove a -> link 
+
+$('p').click(function(event) {
+	event.stopImmediatePropagation();
+	console.log('a');		
+});
+
+return false -> event.stopPropagation() & event.preventDefault();
+
+promise() -> wait until some animations end then ...
+promise, deferred -> Used to customerized resolve and reject status.
+detach() -> contain event, remove() -> not contain event.
+svweb006 (www.techbow.com)
+
+Personal Website
+
+11/1/2015
+Homework:
+HW1 : Use Angular / lego clicker (original function and json data)
+HW2 : onsite 2 hour true problem -> Readme
+HW3 : Password only show final character, function add and delete
+
+Front End MVC:
+Angular.js
+SEO -> Search Engine Optimization
+(PLURALSIGHT) -> Angular.js (Good)
+AngularJS website -> Directive (Develop -> Developer Guide)
+Install nodejs, npm on class
+
+
+
+
+
