@@ -1,0 +1,24 @@
+!!! Daily Report:
+
+Talk about Longest Palindrome subsequence (1 hour)
+reverse original string and find it with original string longest common sequence.
+Sort List (1 hour, try to use quick sort instead of merge sort)
+Number of 1 Bits (10 mins)
+Excel Sheet Column Number (10 mins)
+Excel Sheet Column Title (20 mins) (Note : 1-26 should map to A-Z using (X-1)%26)
+Gray Code (20 mins)
+Group Anagrams (20 mins) (Can use Collections.sort to sort an arrayList!)
+Minimum Size Subarray Sum (20 mins)
+Longest Palindromic Substring (45 mins)
+Shortest Palindrome (1 hour) (Time Limit Exceed! WHY use charArray not time limit exceed, but use charAt will time limit exceed???)
+
+!!! Evening Algorithm Class Notes:
+
+Bag Pack (背包九讲 网页版)
+Exception in java (Global Variable, return -1) (Java Event Listener -> Call Back)
+Multithread
+web warmup
+web service (XML -> WSDL(Interface, use it to decode web string communication), RESTful API)
+!!!Sql!!!(join, inner join, left outer join, right outer join, full join, natural join)/!!!Java interview Questions!!! (vector -> Can set size and ArrayList difference)
+
+

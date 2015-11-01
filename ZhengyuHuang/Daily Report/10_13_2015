@@ -1,0 +1,29 @@
+!!! Daily Report
+
+Leetcode Problem:
+Candy (15 mins)
+Factorial Trailing Zeroes (15 mins)
+Longest Common Prefix (20 mins)
+Gas Station (20 mins)
+Palindrome Number (10 mins)
+Reverse Integer (20 mins) (Dealing with overflow problem)
+Restore IP Addresses (30 mins) (Take care of corner case)
+Rectangle Area (15 mins)
+Minimum Window Substring (1 hour) (Do this problem AGAIN!!!)
+
+!!! Evening class notes:
+!Median of Two Sorted Arrays (logK where K equals to (m+n)/2)
+Best Time to Buy and Sell Stock (Keep local minimum in for loop)
+Best Time to Buy and Sell Stock II
+Best Time to Buy and Sell Stock III 
+!Best Time to Buy and Sell Stock IV (Try myself at home, not in class)
+Pow(x, n) (What is x and what is n?) "n % 2" is not good enough, and "n & OX01" is better. Math.abs(x-1) < 0.00000001 to judge whether double x equals to 1.0 ! <BigDecimal>
+Sqrt(x) (Treat overflow, use m <= x/m, not m*m <= x) (Newton Iterative Method)
+Reverse Integer
+!Divide Two Integers
+Evaluate Reverse Polish Notation
+Factorial Trailing Zeroes
+Jump Game
+!Jump Game II (Try to do it again!)
+
+

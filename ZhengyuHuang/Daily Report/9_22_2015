@@ -1,0 +1,36 @@
+!!! Daily Report:
+
+Leetcode Climbing Stairs
+Leetcode Decode Ways
+Leetcode Postorder Traversal (recursive and iterative)
+Leetcode Preorder Traversal (recursive and iterative)
+Leetcode Inorder Traversal (recursive and iterative)
+Leetcode Level Order Traversal I & II
+Leetcode Binary Tree Zigzag Level Order Traversal
+Leetcode Minimum Depth of Binary Tree
+Leetcode Balanced Binary Tree
+Leetcode Validate Binary Search Tree
+Leetcode Flatten Binary Tree to Linked List (Need to use another way to AC it)
+Leetcode Populating Next Right Pointers in Each Node
+
+I should rewrite reverse linked list II.
+
+
+!!! Class Notes:
+
+REDO "reverse linked list" & "reverse linked list II"4
+Reverse linked list (Use first three points p1->p2->p3->)
+p1 start == null
+move to next loop:
+p1 = p2;
+p2 = p3;
+p3 = p3.next;
+At last, when p3 == null, then out of loop, set p2.next = p1.
+
+character ASCII - 8
+Binary Search Tree -> Every node in the left subtree always smaller than root val, while every node in the right subtree always bigger than root val. Inorder traversal is sorted.
+
+Use two queues to implement BFS.
+Class Practise - Balanced Binary Tree
+Class Practise - Flatten Binary Tree to Linked List
+

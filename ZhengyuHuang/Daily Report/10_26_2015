@@ -1,0 +1,12 @@
+!!! Daily Report:
+
+Web homework Part One Done;
+Web homework Part Two Done;
+Web homework Part Three Done.
+
+this.getDuration = function () {
+
+return this.duration;
+};
+把所有的方法写到prototype上去~
+

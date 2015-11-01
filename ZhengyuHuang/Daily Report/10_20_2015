@@ -1,0 +1,51 @@
+!!! Daily Report
+
+Lintcode Problem:
+Longest Consecutive Sequence (10 mins)
+Continuous Subarray Sum (30 mins) (Review it later !!!)
+Segmemt Tree Build II (20 mins)
+Interleaving Positive and Negative Numbers (20 mins)
+Permutation Index (30 mins) (Know the answer, review it later !!!)
+Longest Common Subsequence (10 mins)
+Longest Palindromic Substring (40 mins)
+Longest Increasing Subsequence (30 mins) (Note at last I should find max value in DP array !!!)
+
+Codecademy HTML&CSS -> 60%
+
+!!! Evening Algorithm Class
+
+Java UTL -> Vector (Can preassign space)
+Iterator<String> iter = mylist.iterator();
+while(iter.hasNext()){
+	print(iter.next());
+}
+Class Dept implements Iteratable<People> {
+	List<People> fullTime = new ArrayList<People>();
+	List<People> contractor = new ArrayList<People>();
+	@override
+	if(fullTime.iterator().hasNext()) return fullTime.iterator();
+	else return contractor.iterator();
+}
+<SEE QQMAIL>
+Comparable and Comparator
+
+Leetcode Problem:
+BST Iterator;
+Insert Interval;
+!Merge Interval;
+!Minimum Window Substring;
+!Longest substring without repeating characters;
+
+Design how www works (OSI seven layers protocol) 
+IP v4 and IP v6. Domain map to IP (DNS server). DNS -> distributed system. Local cache -> Local DNS -> Global DNS. One client and one server use TCP/UDP protocal. UDP works for time and easy to implement. TCP works for accurate.
+(TCP -> HTTP, TCP -> Telnet)
+
+Design
+Memcache
+Consistent Cache (Calculation Redundancy, distribute calculation ability if one node is down)
+
+Data Structure
+Trie
+
+
+

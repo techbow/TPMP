@@ -1,0 +1,45 @@
+!!! Daily Report
+
+
+!!! Algorithm morning notes:
+
+Finding job. Several Frameworks (such as AngularJS) Suppose I can do a job. I have worked for Techbow (Startup) and do big data solution for some commercial banks and code is confidential that I can not show you. Your company is a better platform than this startup for me to begin my career. 
+
+Big Data -> 外排序
+
+Find most frequent IPs visited last 24 hours.
+HashMap (key, value) -> (IP address, visited times)
+Implement an object having IP address and visited times, using vistied times as criteria to sort and find top 10.
+Very Vague for Big Data Problem, test communication problem. 
+For previous problem, ask:
+1) How many clients will visit this website? (Eye see -> Can contain in only one hashtable -> Can not read into 1G memory)
+IP v4 (32 bits) and IP v6 (64 bits). Time stamp (64 bits). Altogether 32 bytes one record. 1 billion record -> 32G. How many possible different IP addresses. 
+
+If memory is not enough, use split IP addresses into 10 pieces (mod 10). Or if URL (String), then use Hash function. 
+
+? 250 million integer(1 G), find distinct one. (For small data, sort or use hash table)
+
+Bloom Filter (Can delete?)
+Reservoir Sampling 
+Random5 -> Random7
+(5*Random5 + Random5) % 7 (后面多余的扔掉)
+
+!!! Web Class
+!!! -> Wei Han
+HTML/CSS/Javascript
+First -> HTML
+What questions will be asked during interview:
+HTML is foundmental, will not be asked during interview, but will show during CSS and JavaScript.
+
+w3cschool -> HTML Quizs.
+Element, network and console <- Chrome inspect element.
+<pre>, <br> -> not recommended
+
+placeholder
+Safari "Required" not function, but Chrome works.
+HTML Local Storage
+JavaScript Canvas Game (D3 framework -> SVG)
+
+
+
+

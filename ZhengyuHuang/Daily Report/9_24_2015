@@ -1,0 +1,49 @@
+!!! Daily Report
+
+
+
+!!! Algorithm lecture notes
+
+Find five resume for software engineering.
+L1 cash - 0.5ns level (K level)
+L2 cash - 5ns level
+......
+Memory 70ns level (-> contain stack)
+Storage (HDD, SSD) 固态和读盘（转，普通）硬盘
+转盘：寻道50ms，读取1ms。固态硬盘：100mB/s
+IOPS  
+
+Cash Hit Rate
+
+Operating System
+Page - 8K, read from hardware, smallest unit.
+stack size - 8M 
+
+Java file stream (I/O)
+
+Process(进程) -> load into memory and run, they are each independent 
+CPU -> time frame (P1, P2, P3 ...)
+open a program, then a new process begins, the start of process is very time consuming.
+
+Thread(线程) -> light weight process. interthread communicate. 
+main thread, T1 thread, T2 thread
+WHY need threads -> -> Read data from website (html + picture) -> decode picture & I/O at the same time. Uncompress picture and read picture.
+
+String Buffer -> multi-thread safe
+Hash Table -> multi-thread safe
+Hash Map -> not multi-thread safe
+String Builder -> not multi-thread safe
+vector -> not multi-thread safe
+arraylist -> multi-thread safe
+Hash Set -> not multi-thread safe
+
+synchronized method is used for only same method (ALL method synchronized) at the same time.
+
+Thread pool -> fixed size, once every thread 
+!!! Design pattern
+!!! This Sunday morning 9:00 am.
+!!! This Saturday morning algorithm. This Saturday afternoon 2:00 pm. (White board leetcode problem)
+!!! Google Calendar.
+
+!!! Next Tuesday -> Database(sql).
+

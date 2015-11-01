@@ -1,0 +1,64 @@
+!!! Daily Report:
+
+
+!!! Afternoon Web Class Notes:
+
+// Wrong
+
+for (var i = 0; i < 5; i++) {
+	setTimeout(function(){
+		console.log(i)
+	},10)
+}
+
+// Correct version1
+
+var a = function(){
+	return function() {
+		console.log(i)
+	}
+}
+
+for (var i = 0; i < 5; i++) {
+	setTimeout(a(i), 10)
+}
+
+// Correct version2
+
+for (var i = 0; i < 5; i++) {
+	setTimeout(function(i){
+		console.log(i)
+	}.bind(null, i),10)
+}
+
+what is strict mode ? "use strict" -> It is commonly used.
+
+Inheritance (Pattern -> Remember it!)
+Cat.prototype = new Animal();
+Cat.prototype.constructor = Cat;
+
+Cat.prototype = Object.create(Animal.prototype);
+Cat.prototype.constructor = Cat;
+What is the difference between "new" and "Object.create"?
+
+Self implement "bind" function:
+Function.prototype.bind = Function.prototype.bind || self.apply()
+bind -> not immediately invoke; call & apply -> immediately invoke
+Promise -> Solve QianTao problem.
+
+The HTML DOM
+use "innerHTML" instead of "Document.write()"
+use class to change css format instead of use style.color (this is inline and NO GOOD)
+addEventListener("click", doSomething);
+removeEventListener (So NiMing function should not be used in addEventListener)
+
+JS Browser Bom
+
+JQuery (Library)
+JQuery Object using $div = $("div");
+JQuery Chaining (For first homework) -->> function() { return this;}
+	to implement foo.a().b().c() and ALL a(), b() and c() are methods of foo object.
+
+
+
+

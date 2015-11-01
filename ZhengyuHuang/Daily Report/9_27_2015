@@ -1,0 +1,62 @@
+!!! Morning algorithm class:
+
+Lecture Nodes:
+
+ListNode Wrapper
+O(n) -> Botton up to BST
+O(nlgn) -> Find middle List to BST (upside down)
+O(n) -> Array to BST
+Get List Length (Ask for interviewer whether I need to implement "getListLen")
+Word Search -> Time complexity -> O(4^N) suppose length of input String equals to N.
+
+PowerSet(All subsets)
+Subsets -> Bits Representative map & DFS & BFS
+How to explain DFS (The process of [1,2,3] to the PowerSet)
+
+Interview:
+
+(Amazon)
+CS Fundamentals
+Problem Solving
+Algorithms
+Coding
+Design
+*Leadership Principle
+
+Cover -> branch (test case)
+craking coding interview
+Design Question (special terms - dimand, heart)
+
+Do not silence -> Do not spend time on detail -> Do not talk too much (Do not show personal preference) -> Do not email the interviewer
+
+Do speak loud -> do break down the problem -> do ask questions
+
+impression is very important. Leave interviewer a good impression.
+
+Hiring manager, bar raiser, SDE II -> 1 hour each
+Feedback is normally collected in 2 days.
+
+Hiring Manager: Backbone, Disagree & Commit, Ownership, Earns Trust of Others (Teamwork & Communications) -> Whether fit in his/her team
+Design Question -> Scalibility (High level)
+
+Coding -> logical and maintainable, insists on the highest standards
+System Design -> Scalability and operatinal performance, Bias for Action
+Coding (Bar raiser): Problem solving; Delivers Result & Right A Lot
+Amazon first cloud service -> Half year refer wait.
+
+Google level V
+
+
+
+
+
+!!! HomeWork:
+
+Leetcode problems:
+
+Subsets
+Combination Sum
+Combination Sum II
+Combination Sum III
+N-Queens II
+Generate Parentheses

@@ -1,0 +1,35 @@
+!!! Daily Report
+
+
+
+!!! Afternoon web class note
+Do not put head picture 
+Resume best font
+
+status:
+304 -> Cache;
+200 -> get resources from server;
+index.css?***** Use Version number after URL to confirm whether content on cache is the most updated or not.
+版本号和缓存
+Do not use document.write()
+window.document === document -> Return true
+1 == Math.floor(3/2);
+Convert String to Int -> "5" - 0 -> Result: 5
+[] -> array || {} -> object
+a.contructor.toString().indexOf('Array') > -1
+How to deepcopy an object ? (<- Interview Question for JavaScript)
+Copy Array use -> list.slice()
+Math.max.apply(null, arr) where arr = [1,2,3]
+var d = new Date(120000) -> 120000 is ms from 1/1/1970
+DO NOT use new Array() to new a new array!
+JavaScript can only SORT String, not number!
+JavaScript: [] & {} -> Truty;
+Add "debugger;" to where I need to debug and refresh webpage.
+Hoist (提升)
+! Important : Closure
+Only function scope exists in JavaScript
+For variable in a function, I must use "var" to claim a global variable.
+IIFE -> var fun = (function name(){})();
+Object prototype (Add new prototype function in common)
+
+

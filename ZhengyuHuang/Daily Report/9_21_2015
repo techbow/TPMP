@@ -1,0 +1,25 @@
+!!! Daily Report:
+
+!!! Note I apply for a new account for leetcode. ALL the problems I solve using this account is after the beginning of TPMP program.
+
+(Leetcode-88) Merge Sorted Array
+(Leetcode-73) Set Matrix Zeros [AC using both extra space and no extra space.]
+(Leetcode-160) Intersection of Linked Lists [AC using both HashMap and getLength]
+?? I have some problems implementing previous problem using HashMap
+(Leetcode-26) Remove Duplicates from Sorted Array
+(Leetcode-80) Remove Duplicates from Sorted Array2
+(Leetcode-205) Isomorphic Strings
+
+Homework Done: (Drag picture of AC result)
+(Leetcode-83) Remove Duplicates from Sorted List
+(Leetcode-82) Remove Duplicates from Sorted List II
+(Leetcode-206) Reverse Linked List (Do it both recursively and iteratively)
+(Leetcode-92) Reverse Linked List II 
+?? How to define "in-place" and "in one-pass" in the previous problem
+(Leetcode-21) Merge Two Sorted Lists
+
+Report to my contract manager for about an hour.
+
+Recommandation - For Algorithm teacher, tell him the password and username of my new Leetcode account. Then it is easy for him to check out Leetcode status.
+
+For advanced part of MyCalc (Java HW1), I have designed a integer calculater containing plus, minus, times and divide with high priority of both times and divide. As a result, the rest of work is to deal with "(" and ")". I can use an ArrayList<Integer> to store all "(" index until I find first ")". For a VALID expression, for loop all index of "(", from right to left, find its right first ")", call foundmental Calc to calculate and insert the String format of result into proper position in string, at the same time, judge its previous char and latter char can only be one of "+", "-", "*" and "/", else println ERROR. Then begin next loop until all "(" index has been processed. (Done)

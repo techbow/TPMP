@@ -1,0 +1,2 @@
+Go to contract company to show manager my work. 
+(Note: Maybe one of four parameters have no values, I still needs to record its instance value<ONLY need to detect "Cycles" for "Parameter", maybe this instance value is not needed. !!!Ask Chris about it when I received from him an email about my next project>. And omit first parameter with string "Parameter" in the final result<DONE!>. And find bug WHY first row of folder 1 does not show up<No BUG here!>.)

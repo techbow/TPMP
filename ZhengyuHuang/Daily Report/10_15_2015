@@ -1,0 +1,31 @@
+!!! Daily Report
+
+Leetcode Problem:
+Swap Nodes in Pairs (15 mins)
+Longest Valid Parentheses ()
+Fraction to Recurring Decimal ()
+Max Points on a Line ()
+String to Integer (atoi) ()
+
+
+!!! Evening Class Notes:
+
+Junit
+A mature software company life cycle.
+(First Step) Requirement Analysis (Background, budget, restrictions, scope, how many possible clients, background data stored in AWS, own server? Maintainance, Sell Car, Deadline)
+300 lines one person one month (C++)
+1000 lines one person one month (HTML)
+600 lines one person one month (Java)
+(System Design) Total users, largest amount of users per unit time, what technology can be used.
+(Function Design) Prototype, prove it is workable, class component, third party library, add some features (Along with unit test)
+DAO (Data Access Object) -> Use different programming languages to access database.
+Up -> Business logic (Algorithm) 
+Up -> Model (such as MVC)
+JSP (Java Server Pages), something like PHP
+
+Unit Test (try to do it)
+Pressure Test (DDoS)
+
+Enhance confidence asking mobile phone numbers from strangers.
+
+
